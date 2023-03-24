@@ -1,4 +1,6 @@
-let employee: {
+type Employee = {
   id: number
   name: string
-} = { id: 1, name: 'Taufan' }
+}
+
+let employee: Employee = { id: 1, name: 'Taufan' }
